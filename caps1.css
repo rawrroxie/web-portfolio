@@ -1,0 +1,12 @@
+*{
+	background-color: #7BE0AD;
+}
+
+.navbar{background-color: #aee5d8;}
+.nav-item{background-color: #aee5d8; }
+.collapse {background-color: #aee5d8;}
+.navbar-collapse{background-color: #aee5d8;}
+
+a.navbar-brand{color: #37392E;}
+
+li, a.nav-link{color: #37392E;}
