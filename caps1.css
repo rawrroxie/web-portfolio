@@ -1,12 +1,131 @@
 *{
-	background-color: #7BE0AD;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Amatic SC', cursive;
+	background: #82ABA1;
 }
 
-.navbar{background-color: #aee5d8;}
-.nav-item{background-color: #aee5d8; }
-.collapse {background-color: #aee5d8;}
-.navbar-collapse{background-color: #aee5d8;}
+a.nav-link{
+	font-size: 2rem;
+	font-weight: 700;
+	font-color: white;
+}
 
-a.navbar-brand{color: #37392E;}
 
-li, a.nav-link{color: #37392E;}
+
+.profilepic{
+
+	height: 75%;
+	width: 75%;	
+}
+
+h1.big{font-size: 5em;}
+h6.font{font-size: 2rem;}
+
+.animate__animated.animate__rubberBand {--animate-duration: 5s;}
+
+ .animate__animated.animate__backInUp{--animate-duration: 5s;}
+
+ .animate__animated.animate__backInLeft{
+ 	--animate-duration: 5s;
+ 	--animate-delay: 10s;
+ }
+
+ .social{
+	height: 25px;
+	width: 25px;}
+
+.wave{position: relative;}
+
+svg{
+	background: #94FBAB ;
+}
+.custom-shape-divider-top-1661498406 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1661498406 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 100px;
+}
+
+.custom-shape-divider-top-1661498406 .shape-fill {
+    fill: #82ABA1;
+}
+
+
+
+
+.projects{background: #94FBAB;}
+
+.projtitle{
+	font-size: 5em;
+	background: #94FBAB;
+	}
+
+.projcard{
+	background: #94FBAB;
+	}
+h5.projcard{
+	font-size: 2em;
+}
+
+.aboutme{background: #A9FFF7;}
+
+p.aboutme{
+	font-size: 25px;
+}
+
+
+img.aboutme{
+	background-image: url(./images/grayshape.png);
+}	
+
+img.waveaboutme{
+	background-repeat: no-repeat;
+	background: #A9FFF7;
+}
+
+.aboutmetitle{
+	font-size: 5em;
+}
+
+.contactme{
+	background: #B8E1FF;
+}
+
+.formcolor{
+	background: #E8AEB7;
+	font-size: 30px;
+}
+
+.contactmetitle{
+	font-size: 5em;
+	}
+
+	.btn{
+		font-size: 30px;
+	}
+
+.modal{
+	background: #E8AEB7;
+}
+ 
+
+
+img.wavecontactme{
+	background-repeat: no-repeat;
+	background: #B8E1FF;
+
+	
+}
+
